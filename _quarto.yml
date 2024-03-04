@@ -1,0 +1,27 @@
+project:
+  type: book
+book:
+  title: "BS3351: Plant Molecular Phylogeny and Taxonomy"
+  author: "Kevin Fo"
+  date: "05/08/2023"
+  chapters:
+    - index.qmd
+    - lessons/lesson1.qmd
+    - lessons/lesson2.qmd
+  sharing: [twitter, facebook]
+  page-navigation: true
+  repo-url: https://github.com/kevfo/BS3037_Notes/
+  repo-actions: [edit, issue]
+  reader-mode: true
+  comments: 
+    hypothesis: true
+
+format:
+  html:
+    toc: true 
+    theme:
+      light: cosmo
+      dark: darkly
+      
+editor: visual
+
